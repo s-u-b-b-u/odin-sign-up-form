@@ -1,0 +1,73 @@
+
+
+
+
+@font-face {
+    font-family: 'Norse-bold';
+    src: url('./assets/norse/Norse-Bold.woff2') format('woff2'),
+        url('./assets/norse/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norse-normal';
+    src: url('./assets/norse/Norse.woff2') format('woff2'),
+        url('./assets/norse/Norse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 160vh;
+    display: flex;
+}
+
+.image-container {
+    flex: 1.5;
+    background-color: aqua;
+}
+
+.content-container {
+    flex: 3;
+    background-color: rgb(241, 241, 241)
+}
+
+.content {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: 'center';
+    gap: 150px; 
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.intro p {
+    width: 55ch;
+    margin-left: 49px;
+    line-height: 1.3em;
+    font-size: 23px;
+    font-weight: bold;
+}
+ 
+.form {
+
+}
+
+.submit {
+
+}
